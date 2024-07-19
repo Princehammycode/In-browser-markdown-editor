@@ -39,7 +39,7 @@ Users should be able to:
 - Use of localStorage to save the current state in the browser that persists. This means that the data stored in localStorage remains available even after the browser is closed and reopened, as long as the user doesn’t clear their browser data.
 
 
-### Screenshot
+### Screenshots
 
 ![](./Sceenshot2(lightmd).png)            
 
@@ -78,6 +78,6 @@ Users should be able to:
 
 - [React](https://reactjs.org/)
 - [Styled Components](https://styled-components.com/)
-- [react-modal] (https://www.npmjs.com/package/react-modal#api-documentation)
-- [markdown-to-jsx] (https://www.npmjs.com/package/markdown-to-jsx)
+- [react-modal](https://www.npmjs.com/package/react-modal#api-documentation)
+- [markdown-to-jsx](https://www.npmjs.com/package/markdown-to-jsx)
 
