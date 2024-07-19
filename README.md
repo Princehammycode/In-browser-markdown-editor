@@ -1,10 +1,11 @@
 ## In-Browser-Markdown Editor
 
-### What is an In-browser markdown editor
+### What is an In-browser markdown editor?
 
 An in-browser Markdown editor is a web-based tool that allows users to write and edit Markdown text directly within a web browser. Markdown is a lightweight markup language with plain text formatting syntax that is often used to write documentation, readme files, and content for websites.
 
 ![](./Screenshot1.png)
+
 
 ## Importance
 
@@ -40,7 +41,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Sceenshot2(lightmd).png)            ![](./Sceenshot3(SideMenu).png) 
+![](./Sceenshot2(lightmd).png)            
+
+
+![](./Sceenshot3(SideMenu).png) 
+
 
 ![](./Sceenshot4(del).png)    
 
