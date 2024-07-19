@@ -1,10 +1,11 @@
 ## In-Browser-Markdown Editor
 
-### What is an In-browser markdown editor
+### What is an In-browser markdown editor?
 
 An in-browser Markdown editor is a web-based tool that allows users to write and edit Markdown text directly within a web browser. Markdown is a lightweight markup language with plain text formatting syntax that is often used to write documentation, readme files, and content for websites.
 
 ![](./Screenshot1.png)
+
 
 ## Importance
 
@@ -38,9 +39,13 @@ Users should be able to:
 - Use of localStorage to save the current state in the browser that persists. This means that the data stored in localStorage remains available even after the browser is closed and reopened, as long as the user doesn’t clear their browser data.
 
 
-### Screenshot
+### Screenshots
 
-![](./Sceenshot2(lightmd).png)            ![](./Sceenshot3(SideMenu).png) 
+![](./Sceenshot2(lightmd).png)            
+
+
+![](./Sceenshot3(SideMenu).png) 
+
 
 ![](./Sceenshot4(del).png)    
 
@@ -73,6 +78,6 @@ Users should be able to:
 
 - [React](https://reactjs.org/)
 - [Styled Components](https://styled-components.com/)
-- [react-modal] (https://www.npmjs.com/package/react-modal#api-documentation)
-- [markdown-to-jsx] (https://www.npmjs.com/package/markdown-to-jsx)
+- [react-modal](https://www.npmjs.com/package/react-modal#api-documentation)
+- [markdown-to-jsx](https://www.npmjs.com/package/markdown-to-jsx)
 
