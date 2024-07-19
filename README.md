@@ -4,7 +4,7 @@
 
 An in-browser Markdown editor is a web-based tool that allows users to write and edit Markdown text directly within a web browser. Markdown is a lightweight markup language with plain text formatting syntax that is often used to write documentation, readme files, and content for websites.
 
-![](./Screenshot1.png)
+![](./screenshots/Screenshot1.png)
 
 
 ## Importance
@@ -41,13 +41,13 @@ Users should be able to:
 
 ### Screenshots
 
-![](./Sceenshot2(lightmd).png)            
+![](./screenshots/Sceenshot2(lightmd).png)            
 
 
-![](./Sceenshot3(SideMenu).png) 
+![](./screenshots/Sceenshot3(SideMenu).png) 
 
 
-![](./Sceenshot4(del).png)    
+![](./screenshots/Sceenshot4(del).png)    
 
 
 ## Tech Stack
@@ -74,7 +74,7 @@ Users should be able to:
 - My Live Site URL - (https://princehammycode.github.io/In-browser-markdown-editor/)
 
 
-### Some Useful External Documentation
+### Some Useful Links
 
 - [React](https://reactjs.org/)
 - [Styled Components](https://styled-components.com/)
