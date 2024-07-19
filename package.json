@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Princehammycode.github.io/In-browser-markdown-editor",
   "name": "browser-markdown-editor",
   "version": "0.1.0",
   "private": true,
@@ -6,7 +7,6 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^5.0.0",
     "markdown-to-jsx": "^7.4.7",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
@@ -22,8 +22,6 @@
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,ts,jsx,tsx}'"
   },
   "eslintConfig": {
@@ -49,6 +47,7 @@
     "@types/react-dom": "^18.3.0",
     "eslint": "^8.27.0",
     "eslint-plugin-react": "^7.31.10",
+    "gh-pages": "^6.1.1",
     "typescript": "^4.9.5"
   }
 }
