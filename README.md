@@ -25,14 +25,14 @@ An in-browser Markdown editor is a web-based tool that allows users to write and
 ### Features
 
 Users should be able to:
-- Edit and preview their content seamlessly with an intuitive interface.
-- Use Markdown syntax to format your content.
 - Create a new file and start writing.
-- Rename, Format and Save documents.
+- Use Markdown syntax to format your content.
+- Read, Rename and Update documents.
 - View a full-page preview of the formatted content
+- View the optimal layout for the app depending on their device's screen size.
 - Switch between Dark and Light Modes work environment.
 - See hover states for all interactive elements on the page.
-- Delete the file which is not in use.
+- Delete markdown document that is not in use.
 
 ### Extra Feature
 
@@ -50,9 +50,9 @@ Users should be able to:
 ![](./Sceenshot4(del).png)    
 
 
-## Project Stack
+## Tech Stack
 
-- React.tsx
+- React
 - TypeScript
 - Markdown-to-JSX
 - React-DOM
