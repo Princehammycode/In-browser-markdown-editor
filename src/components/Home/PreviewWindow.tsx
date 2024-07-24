@@ -16,6 +16,10 @@ const StyledPreview = styled.div`
   @media screen and (max-width: 768px) {
     width: ${({ showPreview }) => (showPreview ? "100%" : "0%")};
   }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    width: ${({ showPreview }) => (showPreview ? "100%" : "50%")}; 
+  }
 `;
 const TitleContainer = styled.div`
   height: 42px;
@@ -35,9 +39,19 @@ const TitleContainer = styled.div`
 const ShowMarkdownButton = styled(PreviewButton)``;
 const MarkdownContainer = styled.div`
   height: calc(100% - 120px);
-  padding-left: 16px;
-  padding-right: 24px;
+  padding-left: ${({ showPreview }) => (showPreview ? "380px" : "16px")};
+  padding-right: ${({ showPreview }) => (showPreview ? "380px" : "24px")};
   overflow: auto;
+
+    @media screen and (max-width: 768px) {
+    padding-left: ${({ showPreview }) => (showPreview ? "16px" : "8px")};
+    padding-right: ${({ showPreview }) => (showPreview ? "16px" : "8px")};
+  }
+    
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    padding-left: ${({ showPreview }) => (showPreview ? "24px" : "12px")}; 
+    padding-right: ${({ showPreview }) => (showPreview ? "24px" : "12px")};
+  }
 `;
 
 const PreviewWindow = ({ showPreview, handlePreview }) => {
@@ -45,16 +59,16 @@ const PreviewWindow = ({ showPreview, handlePreview }) => {
   const { activeDocument } = useContext(DocumentContext);
 
   return (
-    <StyledPreview theme={theme} showPreview={showPreview}>
+    <StyledPreview showPreview={showPreview} theme={theme}>
       <TitleContainer theme={theme}>
-        PREVIEW
+        <div>PREVIEW</div>
         <ShowMarkdownButton
           showPreview={showPreview}
           handlePreview={handlePreview}
           isPreviewWindow={true}
         />
       </TitleContainer>
-      <MarkdownContainer>
+      <MarkdownContainer showPreview={showPreview} theme={theme}>
         <Markdown>{activeDocument ? activeDocument.content : "asdf"}</Markdown>
       </MarkdownContainer>
     </StyledPreview>
