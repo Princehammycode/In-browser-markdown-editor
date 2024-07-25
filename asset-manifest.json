@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/In-browser-markdown-editor/static/js/main.abab725f.js",
+    "main.js": "/In-browser-markdown-editor/static/js/main.c73b2342.js",
     "static/media/icon-light-mode.svg": "/In-browser-markdown-editor/static/media/icon-light-mode.7825641e8c8db7b1ccc015c578705cfe.svg",
     "static/media/icon-hide-preview.svg": "/In-browser-markdown-editor/static/media/icon-hide-preview.38a5eec897983cb64fe69adfe1fe525c.svg",
     "index.html": "/In-browser-markdown-editor/index.html",
@@ -11,9 +11,9 @@
     "static/media/icon-delete.svg": "/In-browser-markdown-editor/static/media/icon-delete.6cd9d07a25303a08ed78ddc5611fa0f1.svg",
     "static/media/icon-close.svg": "/In-browser-markdown-editor/static/media/icon-close.04c6c56b623f77a1697d4d2fd79674e6.svg",
     "static/media/icon-menu.svg": "/In-browser-markdown-editor/static/media/icon-menu.44d4f02ceaf9da4fa461af7cf1ef603b.svg",
-    "main.abab725f.js.map": "/In-browser-markdown-editor/static/js/main.abab725f.js.map"
+    "main.c73b2342.js.map": "/In-browser-markdown-editor/static/js/main.c73b2342.js.map"
   },
   "entrypoints": [
-    "static/js/main.abab725f.js"
+    "static/js/main.c73b2342.js"
   ]
 }
