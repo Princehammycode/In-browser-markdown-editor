@@ -9,6 +9,7 @@ interface MarkdownEditorWindowProps {
   handlePreview: () => void;
 }
 
+//Markdown Text Editor Container
 const StyledEditorContainer = styled.div<{ showPreview: boolean }>`
   display: ${({ showPreview }) => (showPreview ? "none" : "flex")};
   flex-flow: column nowrap;
@@ -22,6 +23,7 @@ const StyledEditorContainer = styled.div<{ showPreview: boolean }>`
   }
 `;
 
+//Markdown Editor Title
 const TitleContainer = styled.div`
   height: 42px;
   font-family: "Roboto";
@@ -45,6 +47,7 @@ const ShowPreviewButton = styled(PreviewButton)`
   }
 `;
 
+//Markdown Text Editor Content
 const Editor = styled.textarea`
   height: calc(100% - 120px);
   padding-left: 16px;

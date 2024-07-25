@@ -4,6 +4,7 @@ import { ThemeContext } from "../../themes/themeContext";
 import iconShowPreview from "../../assets/icon-show-preview.svg";
 import iconHidePreview from "../../assets/icon-hide-preview.svg";
 
+//Preview icon button styling
 const StyledPreviewButton = styled.div`
   height: 18px;
   width: 18px;

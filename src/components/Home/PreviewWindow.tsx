@@ -5,6 +5,7 @@ import { ThemeContext } from "../../themes/themeContext";
 import { DocumentContext } from "../../documents/documentContext";
 import PreviewButton from "./PreviewButton";
 
+//Preview container styling
 const StyledPreview = styled.div`
   display: flex;
   flex-flow: column nowrap;
@@ -21,6 +22,8 @@ const StyledPreview = styled.div`
     width: ${({ showPreview }) => (showPreview ? "100%" : "50%")}; 
   }
 `;
+
+//Preview Container Title
 const TitleContainer = styled.div`
   height: 42px;
   font-family: "Roboto";
@@ -36,6 +39,8 @@ const TitleContainer = styled.div`
   color: ${({ theme }) => theme.color.sectionheader};
   background-color: ${({ theme }) => theme.background.sectionheader};
 `;
+
+//Styling to the Preview Container Content
 const ShowMarkdownButton = styled(PreviewButton)``;
 const MarkdownContainer = styled.div`
   height: calc(100% - 120px);

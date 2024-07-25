@@ -4,6 +4,7 @@ import iconDelete from "../../assets/icon-delete.svg";
 
 import { DocumentContext } from "../../documents/documentContext";
 
+//Delete Icon button styling
 const StyledDeleteButton = styled.button`
   height: 20px;
   width: 18px;

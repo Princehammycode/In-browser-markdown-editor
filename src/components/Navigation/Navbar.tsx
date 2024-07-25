@@ -8,7 +8,7 @@ import SaveButton from "./SaveButton";
 import DeleteButton from "./DeleteButton";
 import { DocumentContext } from "../../documents/documentContext";
 
-
+//Mardown-editor text on topnav-bar
 const StyledNavbar = styled.div`
   width: 100%;
   height: 72px;
@@ -26,10 +26,13 @@ const StyledNavbar = styled.div`
     height: 56px;
   }
 `;
+
 const LeftContainer = styled.div`
   display: flex;
   flex-flow: row nowrap;
 `;
+
+//Three Bars Menubutton Container
 const MenuButton = styled.div`
   height: 72px;
   width: 72px;
@@ -49,6 +52,8 @@ const MenuButton = styled.div`
   }
 `;
 const MenuIcon = styled.img``;
+
+//Mardown-editor textContainer on topnav-bar
 const Title = styled.div`
   height: 100%;
   width: 184px;
@@ -66,6 +71,8 @@ const Title = styled.div`
     display: none;
   }
 `;
+
+//Divider between barsIcon and markdown text
 const Divider = styled.div`
   height: 40px;
   margin-right: 24px;
@@ -76,6 +83,8 @@ const Divider = styled.div`
     display: none;
   }
 `;
+
+//Container that containes activeDocument Name
 const DocumentContainer = styled.div`
   height: 36px;
   display: flex;
@@ -95,6 +104,8 @@ const DocumentIcon = styled.img`
   height: 16px;
   align-self: center;
 `;
+
+//DocumentName text
 const DocumentNameContainer = styled.div`
   font-family: "Roboto";
   font-style: normal;
@@ -111,6 +122,8 @@ const DocumentName = styled.div`
     display: none;
   }
 `;
+
+//Textarea for editting our document name
 const DocumentNameEditor = styled.input`
   width: 400px;
   color: #ffffff;
@@ -144,6 +157,7 @@ const RightContainer = styled.div`
   align-items: center;
 `;
 
+//Handles the event of the EnterKey
 const Navbar = ({ showSidebar, handleSidebar, handleEnter, setModalOpen }) => {
   const { activeDocument, onDocumentNameChange } = useContext(DocumentContext);
 

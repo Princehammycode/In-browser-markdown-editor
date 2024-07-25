@@ -3,7 +3,7 @@ import styled from "styled-components";
 import iconSave from "../../assets/icon-save.svg";
 import { DocumentContext } from "../../documents/documentContext";
 
-
+//Save icon button styling
 const StyledSaveButton = styled.button`
   display: flex;
   flex-flow: row nowrap;

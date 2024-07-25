@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { ThemeContext } from "../../themes/themeContext";
 import { DocumentContext } from "../../documents/documentContext";
 
+//Delete Button Popup Message
 const StyleModal = styled(Modal)`
   position: fixed;
   top: 50%;
@@ -64,6 +65,7 @@ const Button = styled.button`
 const CustomModal = ({ modalOpen, setModalOpen }) => {
   const { theme } = useContext(ThemeContext);
   const { deleteDocument } = useContext(DocumentContext);
+  const { activeDocument } = useContext(DocumentContext);
   return (
     <StyleModal
       isOpen={modalOpen}
@@ -77,7 +79,7 @@ const CustomModal = ({ modalOpen, setModalOpen }) => {
     >
       <Header theme={theme}>Delete this document?</Header>
       <Text theme={theme}>
-        Are you sure you want to delete the ‘welcome.md’ document and its
+        Are you sure you want to delete the ‘{activeDocument?.name || 'unnamed document'}’ document and its
         contents? This action cannot be reversed.
       </Text>
       <Button

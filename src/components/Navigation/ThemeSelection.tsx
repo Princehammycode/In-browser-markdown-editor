@@ -4,7 +4,7 @@ import iconLightMode from "../../assets/icon-light-mode.svg";
 import iconDarkMode from "../../assets/icon-dark-mode.svg";
 import { ThemeContext } from "../../themes/themeContext";
 
-
+//Slider Container styling
 const StyledThemeSelection = styled.div`
   width: 104px;
   display: flex;
@@ -21,6 +21,8 @@ const Switch = styled.label`
   align-items: center;
   cursor: pointer;
 `;
+
+//Slider Icon Styling
 const Slider = styled.div`
   position: relative;
   width: 48px;

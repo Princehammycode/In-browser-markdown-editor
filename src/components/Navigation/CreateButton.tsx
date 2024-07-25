@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import styled from "styled-components";
 import { DocumentContext } from "../../documents/documentContext";
 
+//Create Document Button styling
 const StyledCreateButton = styled.button`
   display: flex;
   flex-flow: row nowrap;
